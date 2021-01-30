@@ -23,8 +23,9 @@ void UWorldPosition::BeginPlay()
 
 	// UE_LOG(LogTemp, Warning, TEXT("%s"), **PtrLog);
 
-	// FString ObjectName = GetOwner()->GetName();
-	UE_LOG(LogTemp,Warning,TEXT("This component's owner is: %s"),*GetOwner()->GetName());
+	FString ObjectName = GetOwner()->GetName();
+	FString ObjectPosition = GetOwner()->GetActorLocation().ToString();
+	UE_LOG(LogTemp,Warning,TEXT("%s's location is: %s"),*ObjectName, *ObjectPosition);
 }
 
 // Called every frame
