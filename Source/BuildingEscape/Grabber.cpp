@@ -1,8 +1,8 @@
 // Copyright GokhanIrmak 2021
 
 #include "Grabber.h"
-#include "GameFramework/PlayerController.h"
 #include "DrawDebugHelpers.h"
+#include "GameFramework/PlayerController.h"
 
 #define OUT
 
@@ -21,6 +21,29 @@ void UGrabber::BeginPlay()
 
 	FindPhysicsHandle();
 	SetupInputComponent();
+}
+
+// Called every frame
+void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	//Get Players viewpoint
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT PlayerViewPointLocation,
+		OUT PlayerViewPointRotation);
+
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
+
+
+	//If the Physics Handle is attached
+	//Move the object we are holding...
+	if (PhysicsHandle->GrabbedComponent)
+	{
+		PhysicsHandle->SetTargetLocation(LineTraceEnd);
+	}
 }
 
 //Checking for Physics Handle Comp.
@@ -50,25 +73,32 @@ void UGrabber::SetupInputComponent()
 void UGrabber::Grab()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab Input Fired"));
-	GetFirstPhysicsBodyInReach();
-	//TODO, only ray-cast only when key is pressed and see if you can reach
-	//Try and reach with a physics body collision body set.
-	//If we hit something then attach physics handle
-	//TODO Attach physics handle
+
+	//Get Players viewpoint
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT PlayerViewPointLocation,
+		OUT PlayerViewPointRotation);
+
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
+
+	FHitResult HitResult = GetFirstPhysicsBodyInReach();
+	UPrimitiveComponent *ComponentToGrab = HitResult.GetComponent();
+	if (HitResult.GetActor())
+	{
+		PhysicsHandle->GrabComponentAtLocation(
+			ComponentToGrab,
+			NAME_None,
+			LineTraceEnd);
+	}
 }
 
 void UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab Input Released"));
+	PhysicsHandle->ReleaseComponent();
 	//TODO Remove/Release Physics Handle
-}
-
-// Called every frame
-void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	//If the Physics Handle is attached
-	//Move the object we are holding...
 }
 
 FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
@@ -97,6 +127,6 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s"), *(Hit.GetActor()->GetName()));
 	}
-	
+
 	return Hit;
 }
