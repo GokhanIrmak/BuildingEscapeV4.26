@@ -3,7 +3,7 @@
         {
             "name": "BuildingEscapeEditor Editor Win64 Development (BuildingEscape)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape.json",
+            "compileCommands": "D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }

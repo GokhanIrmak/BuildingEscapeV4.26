@@ -2,276 +2,6 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "BuildingEscape Win32 Debug Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Debug Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"BuildingEscape Win32 Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Debug Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 DebugGame Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"BuildingEscape Win32 DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 DebugGame Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Development Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"BuildingEscape Win32 Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Development Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Shipping Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Shipping",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Shipping",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"BuildingEscape Win32 Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Shipping Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Shipping",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Test Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Test",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Test",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"BuildingEscape Win32 Test Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
-			"label": "BuildingEscape Win32 Test Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"BuildingEscape",
-				"Win32",
-				"Test",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
-			}
-		},
-		{
 			"label": "BuildingEscape Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
@@ -279,13 +9,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -296,7 +26,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -305,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -316,13 +46,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -333,13 +63,13 @@
 				"BuildingEscape",
 				"Win64",
 				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -350,7 +80,7 @@
 				"BuildingEscape",
 				"Win64",
 				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -359,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -370,13 +100,13 @@
 				"BuildingEscape",
 				"Win64",
 				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -387,13 +117,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -404,7 +134,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -413,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -424,13 +154,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -441,13 +171,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Shipping",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -458,7 +188,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Shipping",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -467,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -478,13 +208,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Shipping",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -495,13 +225,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Test",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -512,7 +242,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Test",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +251,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -532,13 +262,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Test",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -549,13 +279,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -566,7 +296,7 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,7 +305,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -586,13 +316,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Debug",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -603,13 +333,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -620,7 +350,7 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,7 +359,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -640,13 +370,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -657,13 +387,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -674,7 +404,7 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -683,7 +413,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		},
 		{
@@ -694,13 +424,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Development",
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject",
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\Games\\UE_4.26"
+				"cwd": "E:\\Games\\UE_5.0EA"
 			}
 		}
 	]

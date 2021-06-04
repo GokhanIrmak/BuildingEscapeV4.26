@@ -5,124 +5,124 @@
 			"name": "BuildingEscape (Debug)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Win64 Debug Build",
-			"program": "D:\\UEProjects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "D:\\UEProjects\\BuildingEscape 5.0\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscape (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Win64 DebugGame Build",
-			"program": "D:\\UEProjects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "D:\\UEProjects\\BuildingEscape 5.0\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscape (Development)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Win64 Development Build",
-			"program": "D:\\UEProjects\\BuildingEscape\\Binaries\\Win64\\UE4.exe",
+			"program": "D:\\UEProjects\\BuildingEscape 5.0\\Binaries\\Win64\\UnrealGame.exe",
 			"args": [
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscape (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Win64 Shipping Build",
-			"program": "D:\\UEProjects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "D:\\UEProjects\\BuildingEscape 5.0\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 			"args": [
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscape (Test)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Win64 Test Build",
-			"program": "D:\\UEProjects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "D:\\UEProjects\\BuildingEscape 5.0\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscapeEditor (Debug)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscapeEditor Win64 Debug Build",
-			"program": "E:\\Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"program": "E:\\Games\\UE_5.0EA\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 			"args": [
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject"
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject"
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscapeEditor (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscapeEditor Win64 DebugGame Build",
-			"program": "E:\\Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"program": "E:\\Games\\UE_5.0EA\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 			"args": [
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject"
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject"
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "BuildingEscapeEditor (Development)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscapeEditor Win64 Development Build",
-			"program": "E:\\Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"program": "E:\\Games\\UE_5.0EA\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 			"args": [
-				"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject"
+				"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject"
 			],
-			"cwd": "E:\\Games\\UE_4.26",
+			"cwd": "E:\\Games\\UE_5.0EA",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "E:\\Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "E:\\Games\\UE_5.0EA\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis"
 		},
 		{
 			"name": "Generate Project Files",
-			"type": "clr",
+			"type": "coreclr",
 			"request": "launch",
-			"program": "E:\\Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
-			"console": "externalTerminal",
+			"program": "E:\\Games\\UE_5.0EA\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"D:\\UEProjects\\BuildingEscape\\BuildingEscape.uproject\"",
+				"-project=\"D:\\UEProjects\\BuildingEscape 5.0\\BuildingEscape.uproject\"",
 				"-game",
 				"-engine"
 			],
-			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "E:\\Games\\UE_4.26"
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "E:\\Games\\UE_5.0EA"
 		}
 	]
 }

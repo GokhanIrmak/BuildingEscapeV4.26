@@ -1,57 +1,57 @@
 [
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscape.Build.cs",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\BuildingEscape.Build.cs",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscape.cpp",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\BuildingEscape.cpp",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscape.h",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\BuildingEscape.h",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscapeGameModeBase.cpp",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\BuildingEscapeGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\BuildingEscapeGameModeBase.h",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\BuildingEscapeGameModeBase.h",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\Grabber.cpp",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\Grabber.cpp",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\Grabber.h",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\Grabber.h",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\OpenDoor.cpp",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\OpenDoor.cpp",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\OpenDoor.h",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\OpenDoor.h",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\WorldPosition.cpp",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\WorldPosition.cpp",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UEProjects\\\\BuildingEscape\\\\Source\\\\BuildingEscape\\\\WorldPosition.h",
-		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.182.rsp\"",
-		"directory": "E:\\Games\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\UEProjects\\\\BuildingEscape 5.0\\\\Source\\\\BuildingEscape\\\\WorldPosition.h",
+		"command": "cl.exe @\"D:\\UEProjects\\BuildingEscape 5.0\\.vscode\\compileCommands_BuildingEscape\\BuildingEscape.193.rsp\"",
+		"directory": "E:\\Games\\UE_5.0EA\\Engine\\Source"
 	}
 ]
